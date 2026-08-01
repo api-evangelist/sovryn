@@ -1,7 +1,27 @@
 aid: sovryn
 name: Sovryn
-description: Sovryn is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sovryn is a Bitcoin-native, non-custodial decentralized finance (DeFi)
+  protocol built on Rootstock (RSK). It offers spot and margin trading,
+  perpetual swaps, 0% interest Bitcoin-backed loans (Zero), the Sovryn Dollar
+  (DLLR) Bitcoin-backed stablecoin, yield and liquidity pools, and SOV
+  governance staking, operating as a DAO. Sovryn also incubated BitcoinOS, a
+  zk-powered rollup and multi-VM execution stack for Bitcoin. Developers
+  integrate through open-source smart contracts, a GraphQL subgraph, an indexer
+  HTTP data API, and first-party JavaScript SDKs published under the @sovryn and
+  @sovryn-zero npm scopes.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sovryn.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/sovryn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +29,47 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- DeFi
+- Bitcoin
+- Blockchain
+- Cryptocurrency
+- Trading
+- Lending
+- Stablecoin
+- Web3
+- Smart Contracts
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sovryn-domain-security.yml
+- type: Website
+  url: https://sovryn.com
+- type: Documentation
+  url: https://wiki.sovryn.com
+- type: DeveloperPortal
+  url: https://github.com/DistributedCollective/sovryn-builder-portal
+- type: GitHubOrganization
+  url: https://github.com/DistributedCollective
+- type: Support
+  url: https://discord.gg/sovryn
+- type: SourceCode
+  url: https://github.com/DistributedCollective
+- type: Packages
+  url: https://raw.githubusercontent.com/api-evangelist/sovryn/refs/heads/main/packages/sovryn-packages.yml
+- type: SDKs
+  url: https://raw.githubusercontent.com/api-evangelist/sovryn/refs/heads/main/packages/sovryn-packages.yml
+- type: LLMsTxt
+  url: https://raw.githubusercontent.com/api-evangelist/sovryn/refs/heads/main/llms/sovryn-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

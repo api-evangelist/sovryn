@@ -1,0 +1,104 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/sovryn
+notes: >-
+  First-party client libraries published under the @sovryn and @sovryn-zero npm
+  scopes by the Sovryn / DistributedCollective team. Sovryn is a Bitcoin-native
+  DeFi protocol, so these are web3 integration SDKs (DEX, Zero 0% loans,
+  perpetual swaps, wallet onboarding) rather than a single REST client. Repos
+  verified against github.com/DistributedCollective. No PyPI / crates.io / Maven
+  first-party packages found.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@sovryn/sdex"
+    url: https://www.npmjs.com/package/@sovryn/sdex
+    install: npm install @sovryn/sdex
+    description: SDK for building applications on top of the Sovryn DEX.
+    repository: https://github.com/DistributedCollective/sovryn-dapp
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/perpetual-swap"
+    url: https://www.npmjs.com/package/@sovryn/perpetual-swap
+    install: npm install @sovryn/perpetual-swap
+    description: SDK for the Sovryn perpetual futures / perpetual swap product.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/contracts"
+    url: https://www.npmjs.com/package/@sovryn/contracts
+    install: npm install @sovryn/contracts
+    description: Sovryn protocol contract ABIs and addresses for dapp integration.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/utils"
+    url: https://www.npmjs.com/package/@sovryn/utils
+    install: npm install @sovryn/utils
+    description: Shared utilities used across the Sovryn dapp packages.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/onboard-core"
+    url: https://www.npmjs.com/package/@sovryn/onboard-core
+    install: npm install @sovryn/onboard-core
+    description: Core wallet-onboarding library (sovryn-onboard) for connecting web3 wallets.
+    repository: https://github.com/DistributedCollective/sovryn-onboard
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/onboard-injected"
+    url: https://www.npmjs.com/package/@sovryn/onboard-injected
+    install: npm install @sovryn/onboard-injected
+    description: Injected (browser extension) wallet module for sovryn-onboard.
+    repository: https://github.com/DistributedCollective/sovryn-onboard
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/onboard-trezor"
+    url: https://www.npmjs.com/package/@sovryn/onboard-trezor
+    install: npm install @sovryn/onboard-trezor
+    description: Trezor hardware-wallet module for sovryn-onboard.
+    repository: https://github.com/DistributedCollective/sovryn-onboard
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn/onboard-bitget"
+    url: https://www.npmjs.com/package/@sovryn/onboard-bitget
+    install: npm install @sovryn/onboard-bitget
+    description: Bitget wallet module for sovryn-onboard.
+    repository: https://github.com/DistributedCollective/sovryn-onboard
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn-zero/lib-ethers"
+    url: https://www.npmjs.com/package/@sovryn-zero/lib-ethers
+    install: npm install @sovryn-zero/lib-ethers
+    description: Ethers-based implementation of the Sovryn Zero SDK (0% interest BTC-backed loans).
+    repository: https://github.com/DistributedCollective/zero
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn-zero/lib-base"
+    url: https://www.npmjs.com/package/@sovryn-zero/lib-base
+    install: npm install @sovryn-zero/lib-base
+    description: Base library / interfaces for the Sovryn Zero SDK.
+    repository: https://github.com/DistributedCollective/zero
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn-zero/sdk-contracts"
+    url: https://www.npmjs.com/package/@sovryn-zero/sdk-contracts
+    install: npm install @sovryn-zero/sdk-contracts
+    description: Sovryn Zero smart-contract bindings for the SDK.
+    repository: https://github.com/DistributedCollective/zero
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@sovryn-zero/contracts"
+    url: https://www.npmjs.com/package/@sovryn-zero/contracts
+    install: npm install @sovryn-zero/contracts
+    description: Sovryn Zero protocol smart contracts.
+    repository: https://github.com/DistributedCollective/zero
+    official: true
