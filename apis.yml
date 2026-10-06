@@ -47,7 +47,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - DeFi
@@ -72,6 +72,8 @@ tags_raw:
 - Smart Contracts
 apis: []
 common:
+- url: https://sovryn.com/all-things-sovryn/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/sovryn-domain-security.yml
 - type: Website
